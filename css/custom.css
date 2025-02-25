@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.table1 {
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+ 
+.table1, th, td {
+    border: 1px solid #999;
+    padding: 8px 20px;
+}
+
+.pricing__single .list ul li::before{
+    /* position: relative; */
+    /* vertical-align: top; */
+    display: none !important;
+}
